@@ -1,0 +1,28 @@
+{
+  "name": "alpstackstudios",
+  "version": "1.0.0",
+  "description": "A simple tailwind css website project",
+  "main": "index.html",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renishb10/alpstackstudios.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "Renish Bhaskaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renishb10/alpstackstudios/issues"
+  },
+  "homepage": "https://github.com/renishb10/alpstackstudios#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
